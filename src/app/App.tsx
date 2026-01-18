@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { LandingPage } from '@/app/components/LandingPage';
 import { GameContainer } from '@/app/components/GameContainer';
+import { Analytics } from "@vercel/analytics/next"
 
 export default function App() {
   const [username, setUsername] = useState('');
