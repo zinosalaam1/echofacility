@@ -207,7 +207,7 @@ export function Room3Timer({ onSolved, solvedRooms }: RoomProps) {
                   transition={{ duration: 2, repeat: Infinity }}
                 >
                   <p>Numbers shown: {Math.floor(timeLeft * 6)}</p>
-                  <p className="mt-1">Most common: 34</p>
+                  <p className="mt-1">Most common: 1billi</p>
                 </motion.div>
 
                 {timerComplete && (
